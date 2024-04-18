@@ -24,8 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>JointViT</title>
+  <link rel="icon" type="image/x-icon" href="static/images/medical.svg">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,27 +52,76 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">JointViT: Modeling Oxygen Saturation Levels with Joint Supervision on Long-Tailed OCTA</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://steve-zeyu-zhang.github.io/" target="_blank">Zeyu Zhang</a><sup>1,2,*</sup>,
+              </span>
+
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                  <a href="https://www.linkedin.com/in/xuyin-q-29672524a/" target="_blank">Xuyin Qi</a><sup>3</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/mingxi-chen-4b57562a1/" target="_blank">Mingxi Chen</a><sup>4</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://github.com/lgX1123" target="_blank">Guangxi Li</a><sup>5</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.flinders.edu.au/people/ryan.pham" target="_blank">Ryan Pham</a><sup>3</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.flinders.edu.au/people/ayub.qassim" target="_blank">Ayub Qassim</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/ella-berry-a2a3aab4/" target="_blank">Ella Berry</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://researchers.adelaide.edu.au/profile/zhibin.liao" target="_blank">Zhibin Liao</a><sup>3</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://researchnow.flinders.edu.au/en/persons/owen-siggs-2" target="_blank">Owen Siggs</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://researchers.adelaide.edu.au/profile/robert.mclaughlin" target="_blank">Robert Mclaughlin</a><sup>3</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.flinders.edu.au/people/jamie.craig" target="_blank">Jamie Craig</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.flinders.edu.au/people/minhson.to" target="_blank">Minh-Son To</a><sup>1</sup>
+                </span>
+
                   </div>
 
+                  <p style="height: 10px;">&nbsp;</p> 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><font size="4"><sup>1</sup> <a href="https://www.flinders.edu.au/" target="_blank">Flinders University</a></font></span>
+                    <span class="author-block"><font size="4"><sup>2</sup> <a href="https://www.anu.edu.au/" target="_blank">The Australian National University</a></font></span><br>
+                    <span class="author-block"><font size="4"><sup>3</sup> <a href="https://www.adelaide.edu.au/" target="_blank">The University of Adelaide</a></font></span>
+                    <span class="author-block"><font size="4"><sup>4</sup> <a href="https://www.gtiit.edu.cn/en/" target="_blank">Guangdong Technion - Israel Institute of Technology</a></font></span><br>
+                    <span class="author-block"><font size="4"><sup>5</sup> <a href="https://www.sydney.edu.au/" target="_blank">The University of Sydney</a></font></span><br>
+                    <p style="height: 10px;">&nbsp;</p> 
+                    <!-- <span class="author-block"><font size="5"><b><a href="https://aciids.pwr.edu.pl/2024/" target="_blank">ACIIDS 2024</a></b></font></span><br> -->
+                    <span class="eql-cntrb"><small><sup>*</sup>Work done while being a student researcher at <a href = "https://www.flinders.edu.au/health-medical-research-institute">Flinders Health and Medical Research Institute, Flinders University</a>.</small></span>
                   </div>
+
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                         <!-- Paper link -->
+                      <!-- <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -80,10 +129,10 @@
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span> -->
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- Supplementary link -->
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,11 +140,22 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
+                  </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2404.11525" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
                   </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/steve-zeyu-zhang/JointViT" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -104,41 +164,43 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
+                <!-- Citation Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="static/scholar.html" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+                  <span>BibTeX</span>
                 </a>
               </span>
+
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Teaser video-->
+    <!-- <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/gK3cgMo0Eos?si=ZIb9-slD7_1AHvFi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- End teaser video -->
   </div>
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+<!-- <div class="news">
+  <h2><font size="4"> <b>News:</b> </font></h2>
+  <ul>
+    <li><b>(3/2/2024)</b> &#127881; Our paper has been accepted to <a href="https://aciids.pwr.edu.pl/2024/"><b>ACIIDS 2024</b></a>!</li>
+  </ul>
+</div>
+
+<p style="height: 50px;">&nbsp;</p> -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +210,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            The oxygen saturation level in the blood (SaO<sub>2</sub>) is crucial for health, particularly in relation to sleep-related breathing disorders. However, continuous monitoring of SaO<sub>2</sub> is time-consuming and highly variable depending on patients' conditions. Recently, optical coherence tomography angiography (OCTA) has shown promising development in rapidly and effectively screening eye-related lesions, offering the potential for diagnosing sleep-related disorders. To bridge this gap, our paper presents three key contributions. Firstly, we propose <b>JointViT</b>, a novel model based on the Vision Transformer architecture, incorporating a <b>joint loss</b> function for supervision. Secondly, we introduce a <b>balancing augmentation</b> technique during data preprocessing to improve the model's performance, particularly on the long-tail distribution within the OCTA dataset. Lastly, through comprehensive experiments on the OCTA dataset, our proposed method significantly outperforms other state-of-the-art methods, achieving improvements of up to <b>12.28%</b> in overall accuracy. This advancement lays the groundwork for the future utilization of OCTA in diagnosing sleep-related disorders.
           </p>
         </div>
       </div>
@@ -158,109 +220,245 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <h2 class="title is-3">Methodology</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/jointvit.svg" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates the pipeline of our proposed <b>JointViT</b>, which
+            comprises a <b>balancing augmentation</b> and a plain Vision Transformer with a <b>joint loss</b> for supervision. The classes are denoted as numbers in Kermany v3
+            dataset and alphabets in Prog-OCTA. <i>GT</i> abbreviates ground truth.</p><br>
+        </div>
+        </center>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
 </div>
 </div>
 </section>
-<!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
+<section class="hero is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+      <h2 class="title is-3">Dataset</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/octa-1.svg" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates OCTA instances corresponding to each level of SaO<sub>2</sub>
+            in Prog-OCTA dataset.</p><br>
         </div>
+        </center>
       </div>
-    </div>
-  </div>
+
+      <p style="height: 50px;">&nbsp;</p> 
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/data_dist.svg" style="width: 45%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates the SaO<sub>2</sub> value of patients in Prog-OCTA dataset,
+            and the distribution of the dataset is imbalanced and apparently has a lower
+            average SaO<sub>2</sub> than the normal people.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/guideline-1.svg" style="width: 18%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The classification of
+            SaO2 shown in this table is
+            widely accepted by health-related research and proposed by well-established
+            guidelines.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/class_dist.svg" style="width: 30%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure shows the long-tailed and imbalanced distribution of SaO2 classes in Prog-OCTA, with the borderline low class being predominant.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/oct-1.svg" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figures depict four categories of OCT included in Kermany v3:
+            Diabetic macular edema (DME), characterized by fluid accumulation in the macula due to diabetes; CNV (Choroidal Neovascularization), involving abnormal
+            growth of blood vessels in the retina; Drusen, indicated by the accumulation of
+            deposits comprised of lipids and proteins in the retina; and normal instances.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/octlabel-1.svg" style="width: 27%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table displays the number of instances in each class within
+            the training set and testing set of
+            the Kermany database v3.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/kermany_dist.svg" style="width: 20%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The pie chart shows the proportion of different classes of OCT
+            in the Kermany database v3.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
 </section>
-<!-- End youtube video -->
 
-
-<!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
+      <h2 class="title is-3">Comparative Studies</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/compare-1.svg" style="width: 45%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>We compared our proposed <b>JointViT</b> on Prog-OCTA dataset with
+            well-established 2D and 3D methods which are widely used in medical imaging
+            recognition. The results demonstrate that our method significantly outperforms
+            others in predicting saturation levels using imbalanced OCTA data.</p><br>
         </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
+        </center>
       </div>
-    </div>
-  </div>
+
+</div>
+</div>
 </section>
-<!-- End video carousel -->
 
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Ablation Studies</h2>
 
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation1-1.svg" style="width: 40%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>Ablation results in the table shows the impact of varying joint loss
+            coefficient (λ) values on model performance, which indicates when λ is set to be
+            0.99, the model achieved optimal performance.</p><br>
+        </div>
+        </center>
+      </div>
 
+      <p style="height: 50px;">&nbsp;</p>
 
+      <div class="image-container">
+        <center>
+        <img src="static/images/lambda.svg" style="width: 50%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure visualizes the relationship between joint loss coefficient (λ)
+            values and overall model performance, which indicates the optimal λ value is
+            0.99.</p><br>
+        </div>
+        </center>
+      </div>
 
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation2-1.svg" style="width: 50%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p> The table presents the results of conducting ablations involving the
+            integration of different loss functions within the joint loss framework. The results indicate that our jointly designed loss function, which combines BCE and
+            MSE losses, consistently achieves superior performance compared to alternative
+            configurations.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation3-1.svg" style="width: 53%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>We further explored the efficacy of employing the second-best backbone
+            in comparative studies. Our findings reveal that our approach which used a ViT
+            backbone maintains its position as the top-performing method.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation4-1.svg" style="width: 45%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table demonstrates the significant performance improvement
+            achieved by incorporating post-training with OCT images from the Kermany
+            database v3, compared to the absence of post-training, thereby validating
+            its efficacy as an initialization step for downstream OCTA recognition tasks.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation5-1.svg" style="width: 40%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table showcases the efficacy of balancing augmentation in enhancing
+            model performance, with notable improvements observed in various metrics.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,7 +468,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
@@ -278,13 +476,13 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>Coming soon!</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+  <!-- <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
@@ -300,7 +498,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Statcounter tracking code -->
   
