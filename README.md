@@ -17,5 +17,10 @@ _The oxygen saturation level in the blood (SaO<sub>2</sub>) is crucial for healt
 ## Citation
 
 ```
-citation coming soon!
+@article{zhang2024jointvit,
+  title={JointViT: Modeling Oxygen Saturation Levels with Joint Supervision on Long-Tailed OCTA},
+  author={Zhang, Zeyu and Qi, Xuyin and Chen, Mingxi and Li, Guangxi and Pham, Ryan and Zuhair, Ayub and Berry, Ella and Liao, Zhibin and Siggs, Owen and Mclaughlin, Robert and others},
+  journal={arXiv preprint arXiv:2404.11525},
+  year={2024}
+}
 ```
