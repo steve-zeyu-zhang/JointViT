@@ -1,5 +1,5 @@
 <div align="center"><h1> JointViT: Modeling Oxygen Saturation Levels with Joint Supervision on Long-Tailed OCTA <br>
-<!--   <sub><sup><a href="https://aciids.pwr.edu.pl/2024/">ACIIDS 2024</a></sup></sub>  -->
+  <sub><sup><a href="https://miua2024.github.io/">MIUA 2024</a></sup></sub> 
 </h1>
 
 [Zeyu Zhang](https://steve-zeyu-zhang.github.io), [Xuyin Qi](https://www.linkedin.com/in/xuyin-q-29672524a/), [Mingxi Chen](https://www.linkedin.com/in/mingxi-chen-4b57562a1/), [Guangxi Li](https://github.com/lgX1123), [Ryan Pham](https://www.flinders.edu.au/people/ryan.pham), [Ayub Qassim](https://www.flinders.edu.au/people/ayub.qassim), [Ella Berry](https://www.linkedin.com/in/ella-berry-a2a3aab4/), [Zhibin Liao](https://researchers.adelaide.edu.au/profile/zhibin.liao), [Owen Siggs](https://researchnow.flinders.edu.au/en/persons/owen-siggs-2), [Robert Mclaughlin](https://researchers.adelaide.edu.au/profile/robert.mclaughlin), [Jamie Craig](https://www.flinders.edu.au/people/jamie.craig), [Minh-Son To](https://www.flinders.edu.au/people/minhson.to)
