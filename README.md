@@ -14,7 +14,7 @@ _The oxygen saturation level in the blood (SaO<sub>2</sub>) is crucial for healt
 
 ## News
 
-<b>(06/18/2024)</b> &#127881; Our paper has been selected as <b>oral presentation</b> at <a href="https://miua2024.github.io/"><b>MIUA 2024</b></a>!
+<b>(06/18/2024)</b> &#127881; Our paper has been selected as an <b style="color: red;">oral presentation</b> at <a href="https://miua2024.github.io/"><b>MIUA 2024</b></a>!
 
 
 <b>(05/14/2024)</b> &#127881; Our paper has been accepted to <a href="https://miua2024.github.io/"><b>MIUA 2024</b></a>!
