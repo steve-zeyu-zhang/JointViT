@@ -78,6 +78,12 @@ OR:
 |       |-- ...
 
 ```
+## Checkpoints
+
+- [JointViT](https://github.com/steve-zeyu-zhang/JointViT/releases/download/ckpt/jointvit_best.pt)
+- [DenseNet](https://github.com/steve-zeyu-zhang/JointViT/releases/download/ckpt/densenet_best.pth)
+- [FCNlinksCNN](https://github.com/steve-zeyu-zhang/JointViT/releases/download/ckpt/FCNlinksCNN_best.pth)
+
 ## Training
 modify args dict in train.py
 ```
