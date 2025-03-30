@@ -79,7 +79,7 @@ OR:
 
 ```
 ## Training
-### modify args dict in train.py
+modify args dict in train.py
 ```
  args = {
                     'device': torch.device("cuda:1"),
