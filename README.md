@@ -85,6 +85,10 @@ OR:
 - [FCNlinksCNN](https://github.com/steve-zeyu-zhang/JointViT/releases/download/ckpt/FCNlinksCNN_best.pth)
 
 ## Training
+
+### For colab users, you can find the [notebook](https://github.com/steve-zeyu-zhang/JointViT/blob/main/colab.ipynb).
+
+
 modify args dict in train.py
 ```
  args = {
